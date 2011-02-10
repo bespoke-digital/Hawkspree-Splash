@@ -1,0 +1,105 @@
+
+body, html{margin:0;padding:0;}
+
+body{
+    font-family: 'Ubuntu', arial, sans-serif;
+    font-size:16px;
+    color:#2B2828;
+    background-color:#fff;
+}
+
+#top-bar{
+    background-color:#aa110e;
+    height:25px;
+}
+
+#header{
+
+}
+    #header img{
+        display:block;
+        width:500px;height:auto;
+        margin:50px auto;
+    }
+
+#main-bg{
+    background-color:#aa110e;
+}
+    #main{
+        width:620px;
+        margin:0 auto;
+        padding:40px 0;
+        color:#fff;
+    }
+        #main img{
+            float:left;
+            width:210px;
+            height:auto;
+            margin:5px 15px 20px 0;
+            border:1px solid #fff;
+        }
+        #main h1{
+            margin:0 0 10px;
+        }
+        #main ul{
+            margin:0;
+            padding:0;
+            list-style-position:inside;
+        }
+        #main li{
+            margin-bottom:3px;
+        }
+
+#footer{
+    padding:50px 0;
+}
+    #button{
+        height:44px;
+        width:204px;
+        margin:50px auto;
+        padding:10px 0 0px;
+        font-size:22px;
+        display:block;
+        /*background-color:#aa110e;*/
+        background-image:url(img/button.png);
+        background-repeat:no-repeat;
+        color:#fff;
+        text-align:center;
+        vertical-align:middle;
+        text-decoration:none;
+    }
+
+    #screen{
+        width:100px;
+        display:block;
+        margin:0 auto;
+        text-align:center;
+        color:#aa110e;
+    }
+
+#signup{
+    width:300px;
+}
+    #signup form{
+        display:block;
+        margin-top:5px;
+    }
+        #signup input{
+            padding:5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            height:20px;
+            font-size:16px;
+            margin-top:5px;
+            border:1px solid #444;
+        }
+            #signup input#email{
+                width:220px;
+                color:#666;
+            }
+            #signup input#submit{
+                height:32px;
+                background-color:#aa110e;
+                color:#fff;
+                border:0;
+            }
